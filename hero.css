@@ -26,7 +26,6 @@
 .hero_texto {
     position: relative;
     z-index: 1;
-    /* queda encima de la imagen */
     margin-right: 120px;
     text-align: center;
     color: #ffffff;
@@ -44,11 +43,11 @@
 /* CELULAR */
 @media (max-width: 768px) {
     .hero_texto {
-        position: relative;
         margin-top: 300px;
-        text-align: center;
         color: #000000;
         font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
