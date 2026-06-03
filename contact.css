@@ -1,0 +1,115 @@
+/* contact */
+.contact {
+    background-color: #E8D9EE;
+    width: 100%;
+    color: #260A34;
+
+}
+
+.contact h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo_contac {
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+.logo_contac img {
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+}
+
+.info_contac {
+    width: 40%;
+    padding: 50px 70px;
+}
+
+.info_contac p {
+    text-align: left;
+    margin-bottom: 30px;
+    gap: 30px;
+    display: flex;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.item_contacto {
+    margin-bottom: 30px;
+    gap: 30px;
+    display: flex;
+    font-size: 18px;
+}
+
+.item_contacto a {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+    color: #260A34;
+}
+
+.info_contac img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.contact p {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+
+    /* contact  */
+    .contact h2 {
+        font-size: 40px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .logo_contac {
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .logo_contac img {
+        width: 180px;
+    }
+
+    .info_contac {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .info_contac p {
+        align-items: center;
+        margin-left: 165px;
+        margin-top: -30px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .item_contacto {
+        margin-right: 30px;
+        display: flex;
+        margin-left: 100px;
+    }
+}
