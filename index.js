@@ -20,7 +20,7 @@ function cerrarMenu() {
 }
 
 /* editar post*/
-fetch('/posts.json')
+fetch('posts.json')
     .then(res => res.json())
     .then(posts => {
         const contenedor = document.getElementById('blog_container');
@@ -56,7 +56,7 @@ window.addEventListener("scroll", function () {
 const params = new URLSearchParams(window.location.search);
 const id = parseInt(params.get('id'));
 
-fetch('/posts.json')
+fetch('posts.json')
     .then(res => res.json())
     .then(posts => {
         const post = posts.find(p => p.id === id);
