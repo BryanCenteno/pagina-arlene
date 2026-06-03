@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
 }
-
+h1, h2 {
+    font-family: 'OtraFuente', serif;
+}
 /* Estilos para el encabezado */
 .header_main {
     background-color: #E8D9EE;
@@ -215,8 +218,8 @@
 .blog_container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap:40px;
-    margin-top:40px;
+    gap: 40px;
+    margin-top: 40px;
 }
 
 /* ===== TARJETA ===== */
@@ -230,7 +233,7 @@
 .blog_card img {
     width: 100%;
     height: 200px;
-    object-fit:  cover;
+    object-fit: cover;
 }
 
 .blog_card h3 {
